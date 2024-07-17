@@ -32,11 +32,11 @@ body {
 }
 
 .navbar a {
-    font-size: 18px; /* Adjusted font size */
+    font-size: 18px; 
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 20px; /* Reduced margin */
+    margin-left: 20px; 
     transition: .3s;
 }
 
@@ -230,24 +230,24 @@ body {
 }
 
 .container1 {
-    width: calc(50% - 20px); /* Adjusted width to fit two containers side by side with gap */
-    padding: 50px; /* Adjusted padding for better spacing */
-    background-color: #1d0141; /* Added background color for visibility */
+    width: calc(50% - 20px); 
+    padding: 50px; 
+    background-color: #1d0141; 
 }
 
 .heading1 {
     text-align: center;
     text-decoration: underline;
     margin-bottom: 50px;
-    color: #0ef; /* Added color for consistency */
+    color: #0ef; 
 }
 
-/* Base styling for bars */
+
 .bar {
     font-size: 23px;
 }
 
-/* Styling for the container of technical bars */
+
 .Technical-bars .bar {
     margin: 40px 0;
 }
@@ -292,7 +292,7 @@ body {
     transform-origin: left;
 }
 
-/* Progress percentages for different skills */
+
 .progress-line.html span {
     width: 90%;
 }
@@ -313,7 +313,7 @@ body {
     width: 75%;
 }
 
-/* Styling for percentage labels */
+
 .progress-line span::after {
     position: absolute;
     padding: 1px 8px;
@@ -323,12 +323,12 @@ body {
     border-radius: 3px;
     top: -20px;
     right: -20px;
-    content: attr(data-percent); /* Use attribute to show percentage */
+    content: attr(data-percent); 
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
 
-/* Arrow above the percentage labels */
+
 .progress-line span::before {
     content: "";
     position: absolute;
@@ -344,14 +344,14 @@ body {
     opacity: 0;
 }
 
-/* Animation for showing text */
+
 @keyframes showText {
     100% {
         opacity: 1;
     }
 }
 
-/* Animation for scaling the progress bar */
+
 @keyframes animate {
     100% {
         transform: scaleX(1);
@@ -376,8 +376,8 @@ body {
 }
 
 .radial-bars .radial-bar {
-    width: calc(50% - 20px); /* Adjusted width to fit two columns with gap */
-    height: 250px; /* Adjusted height to fit the content properly */
+    width: calc(50% - 20px); 
+    height: 250px;
     margin-bottom: 20px;
     position: relative;
     display: flex;
@@ -392,7 +392,7 @@ body {
 
 .radial-bars .radial-bar .progress-bar {
     stroke-width: 10;
-    stroke: #812dee; /* Adjusted stroke color */
+    stroke: #812dee; 
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -402,7 +402,7 @@ body {
 
 @keyframes animate-bar {
     100% {
-        stroke-dashoffset: 0; /* Changed to 0 to complete the animation properly */
+        stroke-dashoffset: 0; 
     }
 }
 
@@ -460,18 +460,18 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px; /* Increased font size for better visibility */
-    font-weight: 600; /* Increased font weight for emphasis */
+    font-size: 24px; 
+    font-weight: 600; 
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
 
 .radial-bar .text {
     position: absolute;
-    bottom: -30px; /* Adjusted position for better alignment */
+    bottom: -30px; 
     width: 100%;
     text-align: center;
-    font-size: 16px; /* Reduced font size for better fit */
+    font-size: 16px; 
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
@@ -491,7 +491,7 @@ body {
 }
 
 .contact-container {
-    width: calc(50% - 20px); /* Adjusted width to fit two containers side by side with gap */
+    width: calc(50% - 20px); 
 }
 
 .contact-text h2 {
