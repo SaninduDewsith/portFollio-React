@@ -1,7 +1,5 @@
-// Contact.js
-
 import React from 'react';
-import './style.css'; // Make sure style.css is in the same directory
+import './style.css';
 
 const Contact = () => {
     return (
@@ -11,7 +9,7 @@ const Contact = () => {
                     <div className="contact-text">
                         <h2>Contact <span>Me</span></h2>
                         <h4>Let's Work Together</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus odio vel laboriosam consequuntur dolores autem repellat.</p>
+                        <p></p>
                         <ul className="contact-list">
                             <li><i className="bx bxs-map"></i>Sri Lanka</li>
                             <li><i className="bx bxs-phone"></i>+94 123456789</li>

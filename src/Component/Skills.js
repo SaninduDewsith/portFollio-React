@@ -1,7 +1,5 @@
-// Skills.js
-
 import React from 'react';
-import './style.css'; // Make sure style.css is in the same directory
+import './style.css'; 
 
 const Skills = () => {
     return (
